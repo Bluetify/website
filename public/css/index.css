@@ -1,0 +1,104 @@
+/* --- Fonts & Reset --- */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #00c6ff, #0d0d0d);
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* --- Header --- */
+header {
+    padding: 20px 0;
+    text-align: center;
+    background: transparent;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header .logo {
+    width: 50px;
+}
+
+/* --- Hero Section --- */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    color: #ccc;
+}
+
+.btn-install {
+    display: inline-block;
+    background-color: #00c6ff;
+    color: #0d0d0d;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-install:hover {
+    background-color: #0095cc;
+}
+
+/* --- Features Section --- */
+.features {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.features h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.feature-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: rgba(25, 25, 25, 0.8);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.5);
+}
+
+.card h4 {
+    color: #00c6ff;
+    margin-bottom: 10px;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: transparent;
+    color: #888;
+}
